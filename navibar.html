@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <ul class="nav nav-tabs nav-justified" role="tablist">
+        <li class="nav-item " >
+            <a href="#home" class="nav-link active" data-toggle="tab">home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">profile </a>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">user1</a>
+                <a href="#" class="dropdown-item">user2</a>
+                <a href="#" class="dropdown-item">user3</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a href="#about" class="nav-link" data-toggle="tab">about</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">contact</a>
+        </li>
+    </ul> 
+    <div class="tab-content">
+        <div id="home" class="container tab-pane active">
+            <p>information</p>
+        </div>
+    </div>
+    <div class="tab-container">
+    <div id="about" class="container tab-pane">
+        <p>information about author</p>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
